@@ -46,7 +46,7 @@ public class Main {
     // BufferedReader를 통해 입력 받은 한 문장을 공백 기준으로 문자 단위로 분리한다.
     static StringTokenizer st;
 
-    static int N, M; // 배열 원소 개수 N, 구간 합 내 원소 개수 M
+    static int N, M; // 배열 원소 개수 N, 구간 합을 구해야 하는 횟수 M
 
     static int[] nums;
 
@@ -61,7 +61,7 @@ public class Main {
         // 문자 형태이므로 정수형으로 변환한다.
         N = Integer.parseInt(st.nextToken());
 
-        // 공백 기준으로 나눈 문자 중 두 번째로 들어온 문자(구간합 내 원소 개수)를 저장한다.
+        // 공백 기준으로 나눈 문자 중 두 번째로 들어온 문자(구간 합 구하는 횟수)를 저장한다.
         // 문자 형태이므로 정수형으로 변환한다.
         M = Integer.parseInt(st.nextToken());
 
