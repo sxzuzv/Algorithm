@@ -54,7 +54,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         // BufferedReader를 사용하여 Enter까지의 한 문장을 받는다.
         // 한 줄에 들어온 문자열을 StringTokenizer를 이용해 공백 기준으로 나눈다.
-        // 배열 원소 개수(N)와 구간합 내 원소 개수(M)이 공백으로 구분하여 입력된다.
+        // 배열 원소 개수(N)와 구간 합 구하는 횟수(M)가 공백 구분으로 입력된다.
         st = new StringTokenizer(br.readLine());
 
         // 공백 기준으로 나눈 문자 중 처음 들어온 문자(배열 원소 개수)를 저장한다.
