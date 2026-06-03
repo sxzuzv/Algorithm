@@ -51,9 +51,9 @@ def find_max_occurred_alphabet_v2(string):
             if char == alphabet:
                 alphabet_counts += 1
 
-            if alphabet_counts > max_count:
-                max_count = alphabet_counts
-                most_frequent_alphabet = alphabet
+        if alphabet_counts > max_count:
+            max_count = alphabet_counts
+            most_frequent_alphabet = alphabet
 
     return most_frequent_alphabet
 
