@@ -4,7 +4,7 @@ numbers = list(map(int, input().split()))
 count = 0
 
 for i, num in enumerate(numbers):
-    if int(num) == 2:
+    if num == 2:
         count += 1
 
     if count == 3:
